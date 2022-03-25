@@ -1,0 +1,17 @@
+{
+  "name": "ARG Utility Extension",
+  "version": "1.0.0",
+  "description": "A little bit extra ARG, for cool load testers.",
+  "manifest_version": 3,
+  "author": "Artem Ambrose",
+  "icons": {
+    "16": "icons/arg-16x16.png",
+    "48": "icons/arg-32x32.png",
+    "128": "icons/arg-150x150.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "ARG Utility Extension"
+  },
+  "permissions": ["activeTab"]
+}
