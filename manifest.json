@@ -10,7 +10,7 @@
     "128": "icons/arg-150x150.png"
   },
   "action": {
-    "default_popup": "index.html",
+    "default_popup": "popup.html",
     "default_title": "ARG Utility Extension"
   },
   "permissions": ["activeTab"]
