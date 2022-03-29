@@ -13,5 +13,10 @@
     "default_popup": "popup.html",
     "default_title": "ARG Utility Extension"
   },
-  "permissions": ["activeTab"]
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*", "https://perfview.prod.atl-paas.net/service/*/test-metrics/*"],
+    "run_at": "document_end",
+    "js": ["content.js"]
+  }],
+  "permissions": ["activeTab", "tabs", "scripting"]
 }

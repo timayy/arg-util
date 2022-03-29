@@ -1,3 +1,7 @@
+body {
+    overflow: scroll;
+}
+
 .topbar {
     background-color: #474747;
     padding: 13px;
@@ -93,6 +97,7 @@ img:hover {
     color: #474747;
     font-size: .875rem;
     margin-bottom: 0%;
+    font-weight: bold;
 }
 
 .detail-field p {
